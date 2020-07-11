@@ -4,24 +4,23 @@ import "./styles.css";
 const Toggle = ({ option1, option2, onClick }) => {
   const [toggle, setToggle] = useState(true);
   return (
-    <button
-      onClick={() => {
-        setToggle(!toggle);
-        return onClick();
-      }}
-    >
+    <div className="toggleContainer">
       <p>{option1}</p>
-      {toggle ? (
+      <button
+        className="toggle"
+        onClick={() => {
+          setToggle(!toggle);
+          return onClick();
+        }}
+      >
         <img
-          style={{ transform: "scaleX(-1)" }}
-          src={require("../../assets/toggle.png")}
+          style={toggle ? { transform: "scaleX(-1)" } : {}}
+          src={require("../../assets/images/toggle.png")}
           alt="toggle"
         />
-      ) : (
-        <img src={require("../../assets/toggle.png")} alt="toggle" />
-      )}
+      </button>
       <p>{option2}</p>
-    </button>
+    </div>
   );
 };
 

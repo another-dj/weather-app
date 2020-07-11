@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "myFont";
+  src: url("../src/assets/fonts/Estandar-Regular.ttf");
+}
+
+* {
+  font-family: "myFont";
+}
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

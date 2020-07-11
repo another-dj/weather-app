@@ -1,4 +1,25 @@
-img {
-  width: 90%;
-  height: 90%;
+.toggle {
+  background-color: transparent;
+  border: none;
+  width: 60px;
+  height: 20px;
+  outline: none;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+.toggleContainer {
+  display: flex;
+  align-items: center;
+}
+
+p {
+  margin: 0;
+  color: white;
+  font-size: 1.4em;
+}
+
+.toggle img {
+  width: 100%;
+  height: inherit;
 }

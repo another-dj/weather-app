@@ -1,0 +1,13 @@
+.dropMenu {
+  width: 150px;
+}
+
+.Dropdown-menu {
+  box-shadow: 0 11px 11px 0 rgba(0, 0, 0, 0.2),
+    0 11px 11px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Dropdown-control {
+  box-shadow: 0 11px 11px 0 rgba(0, 0, 0, 0.2),
+    0 11px 11px 0 rgba(0, 0, 0, 0.19);
+}

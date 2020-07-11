@@ -1,0 +1,10 @@
+.sun {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sun p {
+  margin-right: 3vw;
+  margin-left: 3vw;
+}

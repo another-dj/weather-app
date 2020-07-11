@@ -1,7 +1,20 @@
 .container {
   padding: 10px;
+  margin-top: 25px;
+  width: 300px;
 }
 
 .top {
   display: flex;
+  justify-content: space-between;
+}
+
+.mid {
+  margin-top: 7vh;
+}
+
+.bottom {
+  margin-top: 12vh;
+  display: flex;
+  justify-content: center;
 }

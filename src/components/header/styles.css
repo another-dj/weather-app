@@ -1,6 +1,11 @@
 .header {
-  background-color: black;
+  background-color: rgb(68, 89, 99);
   color: white;
   font-family: Arial, Helvetica, sans-serif;
-  
+  height: 9vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 5px 5px 0 rgb(68, 89, 99);
 }
