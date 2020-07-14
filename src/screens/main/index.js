@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./styles.css";
 
-import DropdownMenu from "../../components/dropdownMenu";
+import DropdownMenu from "../../components/dropdownMenu/dropdownmenu";
 import ToggleSwitch from "../../components/toggleSwitch";
 import Weather from "../../components/weather";
 import SunRiseAndSet from "../../components/sunRiseAndSet";

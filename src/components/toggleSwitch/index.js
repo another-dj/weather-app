@@ -1,25 +1,20 @@
-import React, { useState } from "react";
+import React from "react";
 import "./styles.css";
 
-const Toggle = ({ option1, option2, onClick }) => {
-  const [toggle, setToggle] = useState(true);
+const Toggle = ({ onClick }) => {
   return (
     <div className="toggleContainer">
-      <p>{option1}</p>
+      <p>ºC</p>
       <button
         className="toggle"
         onClick={() => {
-          setToggle(!toggle);
-          return onClick();
+          onClick();
         }}
       >
-        <img
-          style={toggle ? { transform: "scaleX(-1)" } : {}}
-          src={require("../../assets/images/toggle.png")}
-          alt="toggle"
-        />
+        <span style={{ backgroundColor: "yellow", padding: "5px" }}></span>
+        <span></span>
       </button>
-      <p>{option2}</p>
+      <p>ºF</p>
     </div>
   );
 };
