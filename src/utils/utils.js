@@ -17,4 +17,3 @@ export const timeConverter = (unixTime, timezone) => {
   const time = hour + ":" + min;
   return time;
 };
-
